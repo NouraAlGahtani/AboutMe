@@ -17,7 +17,7 @@
 
   
 a:link {
-  color: hsl(45, 100%, 72%);
+  color: #99BBBF;
   background-color: transparent;
   text-decoration: none;
 }
@@ -31,45 +31,48 @@ a:link {
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    #5E888C, 
+    #5E888C
   );
+  /* the cards place **/
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    #99BBBF , 
+    hsla(240, 100%, 30%, 0) 100%
+  ), #5E888C;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(129, 100%, 50%, 0) 50%
+    hsl(#99BBBF) 0%, 
+    hsla(129, 92%, 36%, 0) 50%
   );
+  /* show contact button colors   most of them i stopped using but left them */
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(30, 3%, 13%);
+    #077c86 
+ 
+  ), #5E888C;
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    #5E888C 
+    #5E888C
   );
+  /* lil line for About Me*/
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    #5E888C, 
+    #99BBBF 
   );
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(49, 100%, 45%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%); 
+  --jet: #255059;
+  --onyx:  #5E888C;
+  --eerie-black-1:  #5E888C;
+  --eerie-black-2: #255059;
+  --smoky-black: #C1D6D9; 
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: #F2F2F2;
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -102,7 +105,7 @@ a:link {
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px hsla(0, 90%, 49%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
